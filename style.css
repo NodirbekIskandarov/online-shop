@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+}
+.home a {
+    color: white;
+}
+.velik {
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+}
+.velikusti {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.shop a {
+    color: black;
+}
+.shop {
+    height: 500px;
+    margin-top: 50px;
+}
+.first {
+    position: relative;
+}
+.first2 {
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 40px;
+}
+.first2 p {
+    color: black;
+}
+.rasmli {
+    background-color: white;
+}
+.foot a,p {
+    color: black;
+}
+.iconka {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.foot i {
+    padding-right: 20px;
+}
+.foot {
+    background-color: rgb(226, 223, 223);
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.rasmli {
+    padding-bottom: 100px;
+}
+.ota_ul {
+    list-style-type: none;
+    position: relative;
+}
+.ota_ul li {
+    margin: 0 10px;
+}
+.bola_ul {
+    position: absolute;
+    display: none;
+    transition: 2s;
+    
+}
+
+.bola_ul li {
+    list-style-type: none;
+    width: 100px;
+    border-bottom: 1px solid rgb(87, 86, 86);
+    padding: 10px 0;
+}
+.bola_ul a {
+    color: black;
+}
+
+.bola_ul ul{
+    margin: 0;
+    padding: 0;
+}
+.firstson:hover .bola_ul {
+    display: block;
+    transition: 5s;
+    /* transition ishlatolamdim */
+}
+.menufixed {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+a:hover {
+    color: red;
+}
+.littlerasm {
+    position: relative;
+}
+.rasmnarxi {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(128, 128, 128, 0.301);
+    text-align: center;
+    padding-top: 100px;
+    display: none;
+}
+.littlerasm:hover .rasmnarxi {
+    display: block;
+}
+.rasmnarxi a {
+    color: black;
+}
+.rasmnarxi a:hover {
+    color: red;
+}

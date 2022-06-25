@@ -1,0 +1,20 @@
+.bola {
+    /* opacity: 0; */
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.home:hover .bola{
+    /* opacity: 1; */
+    display: block;
+}
+.ota {
+    position: relative;
+    display: flex;
+}
+.ulota {
+    display: flex;
+}
+li {
+    margin: 10px;
+}
